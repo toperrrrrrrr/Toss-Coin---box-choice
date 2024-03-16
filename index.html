@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>the box</title>
+</head>
+
+<body>
+    <section id="coin-section" class="coin-section">
+        <img id="img-coin" class="coins heads"></img>
+        <h1 id="h1-results">Coin</h1>
+        <h6>Press "SPACE" key or Tap the Coin to flip</h6>
+        <button id="btn-flip-next">Next</button>
+    </section>
+
+    <section id="box-section" class="box-section">
+        <section >
+            <h1>Player <span id="player">1</span></h1>
+            <h5 id="instructions">Choose your box and hide it from your opponent</h5>
+            <button id="btn-box1">box1</button>
+            <button id="btn-box2">box2</button>
+        </section>     
+        <button id="btn-restart">Restart</button>
+    </section>
+
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4 id="modalTitle">Convince your opponent to pick the empty box.</h4>
+            <p id="modalMessage"> </p>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/vendor.js"></script>
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
